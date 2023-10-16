@@ -1,5 +1,5 @@
 const SingleContent = () => {
-  return <div style={{ backgroundColor: 'black' }}>SingleContent</div>;
-};
+  return <div>SingleContent</div>
+}
 
-export default SingleContent;
+export default SingleContent

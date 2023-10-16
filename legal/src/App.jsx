@@ -7,8 +7,9 @@ export const App = () => {
   console.log('im here');
   return (
     <Routes>
-      <Route path='/legal' element={<Menu />} />
-      <Route path='/legal/content/single' element={<SingleContent />} />
+      <Route path='/' element={<Menu />} />
+      <Route path='/content/single' element={<SingleContent />} />
+      <Route path='/content' element={<div>content micro</div>} />
     </Routes>
   );
 };
